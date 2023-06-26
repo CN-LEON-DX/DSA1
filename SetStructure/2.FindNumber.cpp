@@ -43,17 +43,17 @@ int main()
     }
     return 0;
 }
-// Cho dãy số A[] gồm có N phần tử, bạn hãy trả lời các truy vấn để xác định xem phần tử X nào đó có nằm trong mảng hay không? Bạn hãy thử giải bài này bằng 3 cách : Set, Map, Binary Search.
+// Given the sequence A[] consisting of N elements, answer the query to determine if a certain element X is in the array or not? Try to solve this problem in 3 ways: Set, Map, Binary Search.
 
 // Input Format
 
-// Dòng đầu tiên là số nguyên N.
+// The first line is an integer N.
 
-// Dòng thứ 2 gồm N số nguyên A[i]
+// Second line contains N integers A[i]
 
-// Dòng thứ 3 là số lượng truy vấn Q.
+// The 3rd line is the number of queries Q.
 
-// Q dòng tiếp theo mỗi dòng là một số nguyên X.
+// The next Q lines each are an integer X.
 
 // Constraints
 
@@ -61,14 +61,14 @@ int main()
 
 // Output Format
 
-// Đối với mỗi truy vấn in ra YES nếu phần tử X xuất hiện trong mảng, ngược lại in ra NO.
+// For each query, print YES if element X appears in the array, otherwise print NO.
 
 // Sample Input 0
 
 // 5
 // 1 2 1 3 4
 // 2
-// 1
+// first
 // 6
 // Sample Output 0
 

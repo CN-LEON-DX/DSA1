@@ -1,14 +1,20 @@
-#include <iostream> 
-#include <set>
-
-using namespace std;
+#include <bits/stdc++.h>
+using namespace std; 
 int main(){
-    int n; cin >> n;
-    set<pair<int, int>> se;
-    while (n--){
-        int x, y; cin>> x >> y;
-        se.insert(make_pair(x, y));
+    int n, p; cin >> n >> p;
+    unordered_set<int> a; unordered_set<int> b;
+    for (int i=0;i<n;i++) {
+        int k; cin >> k;
+        a.insert(k);
     }
-    cout << se.size() <<  endl;
+    for (int i=0;i<p;i++){
+        int k; cin >> k;
+        b.insert(k);
+    }
+    for (int x : a){
+        if (b.count(x)>0){
+            cout << x << " ";
+        }
+    }
     return 0;
 }

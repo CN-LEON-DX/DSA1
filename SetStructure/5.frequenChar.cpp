@@ -26,28 +26,28 @@ int main() {
     }
     return 0;
 }
-// Cho N kí tự được nhập từ bàn phím, bạn hãy thực hiện các yêu cầu sau
+// For N characters to be entered from the keyboard, please do the following requirements
 
-// In ra kí tự có từ điển nhỏ nhất và tần suất xuất hiện của nó
-// In ra kí tự có từ điển lớn nhất và tần suất xuất hiện của nó
-// In ra các kí tự xuất hiện trong N kí tự đã cho theo thứ tự từ điển tăng dần kèm tần suất của nó
-// In ra các kí tự xuất hiện trong N kí tự đã cho theo thứ tự từ điển giảm dần kèm tần suất của nó
+// Print the character with the smallest dictionary and its occurrence frequency
+// Print the character with the largest dictionary and its occurrence frequency
+// Print the characters that appear in the given N characters in ascending lexicographic order with its frequency
+// Print the characters that appear in the given N characters in descending lexicographic order with its frequency
 // Input Format
 
-// Dòng 1 là N : số lượng kí tự
+// Line 1 is N : number of characters
 
-// Dòng 2 gồm N kí tự viết cách nhau 1 dấu cách
+// Line 2 contains N characters separated by 1 space
 
 // Constraints
 
 // 1<=N<=10^5
 // Output Format
 
-// In ra kết quả của 4 yêu cầu, mỗi yêu cầu viết cách nhau 1 dòng
+// Print the results of 4 requests, each request is separated by 1 line
 // Sample Input 0
 
 // 20
-// E a q A z A F F A f G r r l p g D p n M 
+// E a q A z A F F A f G r r l p g D p n CODE
 // Sample Output 0
 
 // A 3
@@ -60,7 +60,7 @@ int main() {
 // F 2
 // G 1
 // M 1
-// a 1
+//a 1
 // f 1
 // g 1
 // l 1
@@ -78,7 +78,7 @@ int main() {
 // l 1
 // g 1
 // f 1
-// a 1
+//a 1
 // M 1
 // G 1
 // F 2

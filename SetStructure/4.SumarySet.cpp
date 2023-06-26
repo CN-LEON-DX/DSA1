@@ -49,25 +49,25 @@ int main() {
     return 0;
 }
 
-// Cho dãy số A[] gồm có N phần tử, có 3 thao tác như sau :
+// Given the sequence A[] consisting of N elements, there are 3 operations as follows:
 
-// Thao tác 1 : Thêm 1 phần tử X vào mảng.
+// Action 1: Add an element X to the array.
 
-// Thao tác 2 : Xóa 1 phần tử X khỏi mảng. Trong trường hợp phần tử X không xuất hiện trong mảng, sẽ không thực hiện xóa, nếu trong mảng có nhiều phần tử X thì chỉ xóa đi 1 phần tử X trong mảng.
+// Action 2: Remove an element X from the array. In case X element does not appear in the array, no deletion will be performed, if there are many X elements in the array, only 1 X element in the array will be removed.
 
-// Thao tác 3 : Truy vấn xem phần tử X có xuất hiện trong mảng hay không?
+// Action 3: Query whether element X appears in the array or not?
 
-// Ban đầu mảng A có N phần tử, với các truy vấn phần tử X trong mảng, in ra YES nếu X xuất hiện trong mảng, ngược lại in ra NO.
+// Initially array A has N elements, with X element queries in the array, print YES if X occurs in the array, otherwise print NO.
 
 // Input Format
 
-// Dòng đầu tiên là số nguyên N.
+// The first line is an integer N.
 
-// Dòng thứ 2 gồm N số nguyên A[i].
+// The second line contains N integers A[i].
 
-// Dòng thứ 3 là số lượng thao tác Q.
+// The 3rd line is the number of operations Q.
 
-// Q dòng tiếp theo mỗi dòng là thông tin của một thao tác, gồm 2 số, số đầu tiên là loại thao tác, số tiếp theo là phần tử X trong thao tác.
+// The next Q lines each line is the information of an operation, including 2 numbers, the first number is the type of operation, the next number is the X element in the operation.
 
 // Constraints
 
@@ -75,7 +75,7 @@ int main() {
 
 // Output Format
 
-// Đối với mỗi thao tác loại 3, in ra YES nếu X xuất hiện trong mảng, ngược lại in ra NO.
+// For each operation of type 3, print YES if X occurs in the array, otherwise print NO.
 
 // Sample Input 0
 
@@ -84,7 +84,7 @@ int main() {
 // 4
 // 1 1
 // 2 6
-// 3 1
+// thirty first
 // 3 6
 // Sample Output 0
 
@@ -92,6 +92,6 @@ int main() {
 // NO
 // Explanation 0
 
-// Ban đầu mảng có 6 phần tử 1, 2, 3, 4, 5, 6. Sau thao tác đầu tiên mảng có thêm 1 phần tử 1 và trở thành mảng (1, 1, 2, 3, 4, 5, 6). 
-// Sau thao tác thứ 2, mảng xóa đi 1 phần tử 6 và trở thành mảng (1, 1, 2, 3, 4, 5). Thao tác thứ 3 truy vấn phần tử 1, câu trả lời là YES vì 1 xuất hiện trong mảng.
-//  Thao tác thứ 4 truy vấn phần tử 6, câu trả lời là NO vì 6 không xuất hiện trong mảng
+// Initially the array has 6 elements 1, 2, 3, 4, 5, 6. After the first operation the array has 1 more element 1 and becomes array (1, 1, 2, 3, 4, 5, 6).
+// After the 2nd operation, the array deletes 1 element 6 and becomes array (1, 1, 2, 3, 4, 5). The 3rd operation queries element 1, the answer is YES because 1 appears in the array.
+// The 4th operation queries element 6, the answer is NO because 6 does not appear in the array

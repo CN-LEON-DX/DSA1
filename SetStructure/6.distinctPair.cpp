@@ -12,13 +12,13 @@ int main(){
     cout << se.size() <<  endl;
     return 0;
 }
-// Cho N điểm trong hệ tọa độ Oxy, bạn hãy xác định có bao nhiêu điểm riêng biệt trong các điểm đã cho. Gợi ý : Dùng set hoặc map lưu pair
+// Given N points in the Oxy coordinate system, determine how many distinct points there are in the given points. Hint: Use set or map to save pair
 
 // Input Format
 
-// Dòng 1 là N : số lượng điểm đã cho
+// Line 1 is N : the number of points given
 
-// N dòng tiếp theo mỗi dòng gồm hoành độ và tung độ của 1 điểm
+// The next N lines each contain the coordinates and coordinates of a point
 
 // Constraints
 
@@ -28,14 +28,13 @@ int main(){
 
 // Output Format
 
-// In ra số lượng điểm khác nhau
+// Print out different number of points
 
 // Sample Input 0
 
 // 20
 // 2 2
 // 0 1
-// 1 2
 // 2 1
 // 2 0
 // 2 1
@@ -49,7 +48,6 @@ int main(){
 // 0 2
 // 1 1
 // 0 2
-// 1 2
 // 0 1
 // 1 1
 // 1 1
