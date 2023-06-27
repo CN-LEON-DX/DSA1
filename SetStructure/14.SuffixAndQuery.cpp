@@ -47,24 +47,38 @@ int main()
 {
     int n;
     cin >> n;
-    int a[n];
-    for (int i = 0; i < n; i++)
+    set<int> se;
+    int a[n]; int d[n]  = {0}; // assign element 0 to all  member to mark them 
+    for (int i = 0; i < n; i++){
         cin >> a[i];
+    }
+    for (int i=n-1;i>=0;i--){
+        se.insert(a[i]);
+        d[i] = se.size();
+    }
     int p;
     cin >> p;
-    while (p--)
-    {
-        int t;
-        cin >> t;
-        set<int> se;
-        if (t < n)
-        {
-            for (int i = t; i < n; i++)
-            {
-                se.insert(a[i]);
-            }
-        }
-        cout << se.size() << endl;
+    // Way 1 but it could be time limit exceed 
+    // while (p--)
+    // {
+    //     int t;
+    //     cin >> t;
+    //     set<int> se;
+    //     if (t < n)
+    //     {
+    //         for (int i = n-1;i>=t; i--)
+    //         {
+    //             se.insert(a[i]);
+    //         }
+    //     }
+    //     cout << se.size() << endl;
+    // }
+    
+
+    // Way 2;
+    while (p--){
+        int t; cin >> t;
+        cout << d[t] <<  endl;
     }
     return 0;
 }
