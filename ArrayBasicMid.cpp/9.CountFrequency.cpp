@@ -14,12 +14,9 @@ int main(){
     }
     cout << endl;
     for (int x : a){
-        for (auto &p : mp){
-            if (x==p.first && p.second != 0){
-                cout << x << " " << p.second << endl;
-                p.second = 0;
-                break;
-            }
+        if (mp[x]){
+            cout << x << " " << mp[x] << endl;
+            mp[x] = 0;
         }
     }
     return 0;

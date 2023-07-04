@@ -1,35 +1,28 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+int F[1000001];
 
 int main(){
-    int n; cin >>n;
+    int n; cin >> n;
     int a[n];
-    vector<int> vt(n);
     for (int i=0;i<n;i++){
         cin >> a[i];
+    }    
+    F[0] = a[0];
+    for (int i=1;i<n;i++){
+        F[i] = F[i-1] + a[i];
+        //cout << a[i-1] << endl;
     }
-    vt[0] = 0;
-    vt[1] = a[0];
-    for (int i = 2;i<n;i++){
-        vt[i] = vt[i-1]+a[i-1];
-    }
-    vt.push_back(a[n-1] + vt[n-1]);
-    for (int x : vt) cout << x << " ";
-    cout << endl;
     int p; cin >> p;
     while (p--){
-        int x, y;
-        cin >> x >> y;
-        int d = 0;
-        if (x==y) {
-            cout << 0 << endl;
-            d++;
-        }
-        else if (x==0 && d==0) cout << vt[y] << endl;
-        else if (d==0 && x!=0)
-        cout << vt[y] - vt[x-1] << endl;
+        int x, y; cin >> x >> y;
+        x--; y--;
+        if (x == 0) cout << F[y] << endl;
+        else
+        cout << F[y] - F[x-1] << endl;
     }
+    
     return 0;
 }
 // Given the sequence A[] consisting of N elements, your task is to calculate the sum of the numbers in the sequence from position l to index r.
@@ -40,7 +33,7 @@ int main(){
 
 // Constraints
 
-// 1≤ N ≤ 10^6; 1 ≤ A[i] ≤ 10^9; 1 ≤ Q ≤ 1000; 1 l r N
+// 1≤ N ≤ 10^6; 1 ≤ A[i] ≤ 10^9; 1 ≤ Q ≤ 1000; 1 <= l <=  r<= N
 
 // Output Format
 
@@ -50,7 +43,7 @@ int main(){
 
 // 5
 // 1 2 3 4 5
-// first
+// 1
 // 1 3
 // Sample Output 0
 
