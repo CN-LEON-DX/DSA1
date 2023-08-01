@@ -12,11 +12,7 @@ int main() {
     
     for (int i = 0; i < n; i++) {
         cin >> num;
-        
-        // Kiểm tra nếu tồn tại A[i]-X trong map, tăng số cặp lên
         pairs += count[num - x];
-        
-        // Tăng số lần xuất hiện của phần tử num trong map
         count[num]++;
     }
     
