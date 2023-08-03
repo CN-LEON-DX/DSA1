@@ -1,0 +1,28 @@
+; Bài 3. Lọc số điện thoại
+; Hiện nay mạng xã hội Tiktok đang phát triển rất mạnh và thu hút giới trẻ vì thế việc
+; kinh doanh trên Tiktok bằng hình thức livestream bán hàng cũng nở rộ. Trong quá
+; trình livestream sẽ có cả những bình luận trò chuyện và những bình luận đặt hàng
+; bằng số điện thoại, để khai thác khách hàng tiềm năng này thì người bán hàng đã sử
+; dụng tool để lưu lại hết các bình luận vào trong một file và lọc ra các số điện thoại
+; trong file. Biết rằng số điện thoại là một xâu bắt đầu bằng số 0, chỉ chứa toàn chữ
+; số và có độ dài 9 hoặc 10 kí tự. Bạn nhận được một file “BinhLuan.txt” gồm hàng
+
+; trăm nghìn bình luận, mỗi bình luận trên 1 dòng, nhiệm vụ của bạn là lọc ra các số
+; điện thoại và lưu vào file “SDT.txt”.
+; BinhLuan.txt SDT.txt
+; anh oi em donate cho anh con su tu roi
+; ong nay live xam qua
+; gia san pham la bao nhieu, tu van di 0988776272
+; hoi gia san pham mai khong noi, khong xem nua
+; 1 tai nghe airpod fake 0988902109, nguyen van long
+; 0uawuuaweu ????
+; ong noi it thoi !!!
+; anh hat di anh
+; anh oi co free sip khong anh ??
+; toi muon mua cho chau toi cai tai nghe nay 0965709901
+; tai nghe co bao hanh khong anh, sao re the
+
+; Sđt:
+; 0988776272
+; 0988902109
+; 0965709901

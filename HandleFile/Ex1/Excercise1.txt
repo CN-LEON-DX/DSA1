@@ -1,0 +1,8 @@
+; Bài 1. Số nguyên tố
+; Cho 1 file text có tên “number.txt” chứa không quá 100000 số nguyên,
+; nhiệm vụ của bạn là lọc ra các số nguyên tố trong file này và lưu lại vào trong file
+; “prime.txt” theo thứ tự tăng dần.
+; Ví dụ
+       Input                  Output
+; number.txt       prime.txt
+; 20 14 3 7 20 19 5 7     3 5 7 7 19

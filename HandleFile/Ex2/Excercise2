@@ -1,0 +1,27 @@
+; Bài 2. Cấp email sinh viên
+; Trường đại học NonameUni vừa nhận khoảng 2000 tân sinh viên 2k4, việc cần làm đầu
+; tiên đó là phải cấp các email edu cho các sinh viên này. Email được cấp cho sinh
+; viên sẽ tuân theo cú pháp như sau : Lấy tên sinh viên ghép với các chữ cái đầu tiên
+; ở họ và tên đệm, ví dụ tên sinh viên là Nguyễn Văn Nam thì email được cấp sẽ là
+; namnv@28land.edu.vn. Mật khẩu của email sẽ là các số trong ngày sinh ghép lại
+; với nhau ví dụ ngày sinh của sinh viên là 28/04/2004 thì mật khẩu được cấp sẽ là
+; 2842004
+; Bạn được thầy giáo trưởng khoa CNTT nhờ cấp email cho 2000 sinh viên, bạn hãy
+; lập trình để từ file “SinhVien.txt” chứa thông tin của tân sinh viên, mỗi thông tin
+; của 1 sinh viên gồm 2 dòng, dòng 1 là tên sinh viên, dòng 2 là ngày sinh tạo ra
+; email và mật khẩu cho mọi sinh viên và lưu vào file “Email.txt”.
+; Ví dụ
+
+Input
+   SinhVien.txt 
+; Tran Xuan Thang
+; 28/04/2004
+; Hoang Dinh Nam
+; 19/05/2004
+
+Output
+    Email.txt
+; thangtx@land.edu.vn
+; 2842004
+; namhd@land.edu.vn
+; 1952004
