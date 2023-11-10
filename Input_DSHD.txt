@@ -1,0 +1,46 @@
+HD001
+12-10-2023
+KH0001
+Nguyen Khac Chinh
+245 Dinh Cong, Ha Noi
+0338841974
+1
+PH001
+A001
+Day nha A1
+Con trong, du tien nghi
+NV001
+Nguyen Thanh Ha
+25 Dai Co Viet, Ha Noi
+0925337447
+22AASDC10001
+Ban hang
+2.3
+1
+DV001
+Matxa
+200000
+
+HD002 
+12-10-2023
+KH0001
+Nguyen Khac Chinh
+245 Dinh Cong, Ha Noi
+0338841974
+1
+PH001
+A001
+Day nha A1
+Con trong, du tien nghi
+NV001
+Nguyen Thanh Ha
+25 Dai Co Viet, Ha Noi
+0925337447
+22AASDC10001
+Ban hang
+2.3
+1
+DV001
+Matxa
+200000
+ENDFILE
